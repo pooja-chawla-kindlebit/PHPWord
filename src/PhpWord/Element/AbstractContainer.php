@@ -241,7 +241,7 @@ abstract class AbstractContainer extends AbstractElement
             'FormField' => $generalContainers,
             'SDT' => $generalContainers,
             'TrackChange' => $generalContainers,
-            'TextRun' => ['Section', 'Header', 'Footer', 'Cell', 'TextBox', 'TrackChange', 'ListItemRun'],
+            'TextRun' => ['Section', 'Header', 'Footer', 'Cell', 'TextBox', 'TrackChange', 'ListItemRun' ,'TextRun'],
             'ListItem' => ['Section', 'Header', 'Footer', 'Cell', 'TextBox'],
             'ListItemRun' => ['Section', 'Header', 'Footer', 'Cell', 'TextBox'],
             'Table' => ['Section', 'Header', 'Footer', 'Cell', 'TextBox'],
